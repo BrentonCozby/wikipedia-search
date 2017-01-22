@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    div.search-container
+        label(for="search") Search Wikipedia
+        br
+        input(id="search", type="search", name="search", value="", autofocus)
+        a#random(target="_blank", href="https://en.wikipedia.org/wiki/Special:Random") Random Article
+
+    section#articles.faded
